@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col s10 offset-s1">
+      <h4>
+        <i class="material-icons large">people</i>
+        <span class="fs-circle-title">
+          Fly Soially Circle for <%=Passenger.find(1).flight%>, <%=Passenger.find(1).destination%>
+        </span>
+      </h4>
+    </div>
+  </div>
+  <% Passenger.all.each_slice(2) do |(i1, i2)|%>
+    <div class="row">
+      <div class="col s6">
+        <%=render partial: "passengers/passenger", locals: {passenger: i1}%>
+      </div>
+      <div class="col s6">
+        <%=render partial: "passengers/passenger", locals: {passenger: i2} if i2%>
+      </div>
+    </div>
+  <% end%>
+</div>

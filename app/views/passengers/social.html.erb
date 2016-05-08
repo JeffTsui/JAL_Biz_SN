@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="row passenger-info">
+        <div class="col s4 offset-s3">
+            Destination:
+        </div>
+        <div class="col s4">
+            <%=@passenger.destination%>
+        </div>
+    </div>
+    <div class="row passenger-info">
+        <div class="col s4 offset-s3">
+            Flight:
+        </div>
+        <div class="col s4">
+            <%=@passenger.flight%>
+        </div>
+    </div>
+    <div class="row passenger-info">
+        <div class="col s4 offset-s3">
+            Seat:
+        </div>
+        <div class="col s4">
+            <%=@passenger.seat%>
+        </div>
+    </div>
+    <div class="row passenger-info">
+        <div class="col s4 offset-s3">
+            Name:
+        </div>
+        <div class="col s4">
+            <%=@passenger.name%>
+        </div>
+    </div>
+    <div class="row passenger-info">
+        <div class="col s6 offset-s4">
+            <%=link_to comment_passenger_path(1), class: "waves-effect waves-light btn-large fs-large-button" do%>
+                Tell us more
+            <%end%>
+        </div>
+    </div>
+</div>

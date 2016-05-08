@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="row">
+        <div class="col s6 offset-s3">
+            <div class="card-panel fs-card">
+                <div class="fs-logo">
+                    <i class="material-icons large md-light">people</i>
+                        <div class="line white-text">
+                            JAL Fly
+                        </div>
+                        <div class="line white-text">
+                            Socially
+                        </div>
+                </div>
+                <div class="info-box">
+                    <div class="info">
+                        To: <%=@passenger.destination%>
+                    </div>
+                    <div class="info">
+                        Seat: <%=@passenger.seat%>
+                    </div>
+                </div>
+            </div>
+            <div class="card-panel fs-card">
+                <div class="type-box">
+                    <i class="material-icons medium">people</i>
+                    <div class="type">
+                        <%=@passenger.travel_type%>
+                    </div>
+                </div>
+                <div class="comment">
+                    <%=@passenger.comments%>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s4 offset-s4">
+            <%=button_to print_passenger_path(1), class: "waves-effect waves-light btn-large fs-large-button" do%>
+                <i class="material-icons large">print</i>
+                Print
+            <%end%>
+        </div>
+    </div>
+</div>

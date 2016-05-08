@@ -1,0 +1,27 @@
+<div class="container">
+    <%= form_for(@passenger, validate: true) do |f| %>
+        <div class="row">
+          <div class="input-field col s8 offset-s2">
+            <%=f.select :travel_type, options_for_select(travel_type_options, @passenger.travel_type)%>
+            <%=f.label :travel_type, "Travel type"%>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s8 offset-s2">
+            <%=f.text_area :comments, class: "comments materialize-textarea", rows: 2, maxlength: 80, length: 80%>
+            <%=f.label :comments, "Comment about your trip"%>
+          </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s8 offset-s4">
+                <%=f.submit "Preview Tag", name: "preview", class: "waves-effect waves-light btn-large"%>
+            </div>
+        </div>
+    <%end%>
+</div>
+
+<script>
+  $(document).ready(function() {
+    $('#passenger_travel_type').material_select();
+  });
+</script>

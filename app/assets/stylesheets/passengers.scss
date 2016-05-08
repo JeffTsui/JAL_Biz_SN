@@ -1,0 +1,225 @@
+// Place all the styles related to the Passengers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.center-button {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    margin-top: 7em;
+}
+
+.passenger-info {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+.edit_passenger {
+    font-size: x-large !important
+}
+
+.edit_passenger .comments {
+    margin-top: 0.5em;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+label {
+    font-size: 25px !important;
+    margin-bottom: 1em !important;
+}
+
+.select-dropdown {
+    font-size: 32px !important;
+}
+
+.edit_passenger text_area {
+    font-size: 30px;
+}
+
+.edit_passenger input {
+    font-size: 30px;
+}
+
+.fs-card {
+    height: 220px;
+}
+
+.fs-logo {
+    background: black;
+    padding: 0.5em;
+    height: 8em;
+}
+
+.fs-logo .material-icons {
+    float: left;
+    color: white;
+    padding-left: 0.5em;
+}
+
+.fs-logo .line {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+
+.fs-card .info {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+}
+
+.fs-card .info-box {
+    margin-top: 1em;
+    
+}
+
+.fs-card .type-box {
+    height: 5em;
+}
+
+.fs-card .type-box .material-icons {
+    float: left;
+}
+
+.fs-card .type-box .type {
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    width: 80%;
+}
+
+.fs-card .comment {
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.fs-large-button {
+    font-size: 30px;
+}
+
+.fs-large-button .material-icons {
+    font-size: 30px;
+}
+
+.fs-nav .nav-logo {
+    padding-left: 1em;
+    padding-top: 5px;
+    height: 80px;
+}
+
+.fs-home {
+    margin-right: 2em;
+}
+
+.fs-home .material-icons {
+    font-size: 80px;
+    margin-top: 0.1em;
+}
+
+.title-text {
+    font-size: 50px;
+    font-weight: bold;
+    color: #e57373;
+    margin-bottom: 1em;
+}
+
+.title-text .material-icons {
+    font-size: 70px;
+    vertical-align: text-top;
+}
+
+.fs-circle-title {
+    position: relative;
+    top: -1em;
+}
+
+.passenger {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-right: 1em;
+    display: inline-block;
+    width: 100%;
+}
+
+.passenger img {
+    float: left;
+    margin-right: 1em;
+}
+
+.passenger .seat {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-right: 1em;
+}
+
+.passenger .info {
+    margin-top: 0.5em;
+    float: left;
+}
+
+.passenger .name {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.passenger .work {
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+
+.passenger .comment {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.fs-nav {
+    height: 90px;
+}
+
+.fs-card-box {
+    width: 100%;
+    font-weight: bold;
+}
+
+.fs-card {
+    width: 80%;
+    height: 100%;
+}
+
+.fs-card .card-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.fs-card .card-seat {
+    font-size: 20px;
+}
+
+.fs-card .card-work {
+    font-size: 20px;
+    margin-top: 1em;
+}
+
+.fs-card .card-comment {
+    font-size: 20px;
+    margin-top: 2em;
+    line-height: 30px;
+}
+
+.fs-card .card-image {
+    height: 350px;
+}

@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  flight: MyString
+  seat: MyString
+  name: MyString
+  from: MyString
+  work: MyString
+  hobby: MyString
+  type: 
+  comments: MyString
+  avatar: MyString
+  fb: MyString
+  linkedin: MyString
+  source: MyString
+
+two:
+  flight: MyString
+  seat: MyString
+  name: MyString
+  from: MyString
+  work: MyString
+  hobby: MyString
+  type: 
+  comments: MyString
+  avatar: MyString
+  fb: MyString
+  linkedin: MyString
+  source: MyString

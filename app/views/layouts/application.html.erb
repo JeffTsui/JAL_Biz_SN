@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JAL Fly Socially</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <nav class="fs-nav">
+    <div class="nav-wrapper">
+      <%=image_tag "jal-logo.jpg", class: "nav-logo"%>
+      <%=link_to root_path, class: "nav-mobile right fs-home" do%>
+        <i class="material-icons large">home</i>
+      <%end%>
+      <%=link_to :back, class: "nav-mobile right fs-home" do%>
+        <i class="material-icons large">arrow_back</i>
+      <%end%>
+      </div>
+  </nav>
+
+  <br>
+  <%= yield %>
+
+</body>
+</html>
